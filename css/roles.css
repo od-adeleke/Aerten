@@ -1,0 +1,149 @@
+a {
+    text-decoration: none;
+}
+
+.log-out-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    border-top: 1px solid #E6E7EC;
+}
+
+.empty-log-out {
+    /* border: 1px solid red; */
+    height: 32px;
+}
+
+.active a {
+    color: #fff;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.log-out {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 1rem;
+}
+
+.log-out-text {
+    display: flex;
+    gap: 1rem;
+}
+
+.log-out-text:hover {
+    cursor: pointer;
+}
+
+.body-head {
+    display: flex;
+    gap: 3rem;
+    border-bottom: 1px solid #EFF1F4;
+}
+
+.text {
+    color: #667085;
+}
+
+.body-content1 {
+    margin-top: 1.5rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    border: 1px solid #EFF1F4;
+    border-radius: 15px;
+    padding: 1rem 3rem;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    /* border: 1px solid red; */
+}
+
+.card-images {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.left-images {
+    display: flex;
+}
+
+.img-number {
+    border-radius: 50%;
+    background-color: #F7E8EF;
+    color: #6A1039;
+    padding: .25rem;
+}
+
+.card-texts p {
+    color: #667085;
+}
+
+.card-tags-container {
+    display: flex;
+    align-items: center;
+}
+
+.card-tags {
+    display: flex;
+    /* height: 15px; */
+    align-items: center;
+    gap: .5rem;
+    /* border: 1px solid red; */
+}
+
+.red, .brown {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.card-author-container {
+    margin-top: .5rem;
+    display: flex;
+}
+
+.card-author {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-author:hover {
+    cursor: pointer;
+}
+
+.card-author-text {
+    margin-right: 1rem;
+    line-height: 10px;
+}
+
+.card-author-text p:last-child {
+    color: #909DAD;
+}
